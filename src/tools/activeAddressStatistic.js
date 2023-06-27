@@ -14,7 +14,7 @@ const endTimestamp = 1687392000;  // 结束时间戳 2023-06-22 00:00:00 UTC
 const startBlockNumber = 585000n//开始区块 2023-05-21 22:38:37 UTC
 // const startBlockNumber = 661500n//开始区块 2023-05-21 22:38:37 UTC
 const stopBlockNumber = 662000n//结束区块 2023-06-22 00:14:05 UTC
-const batchSize = 500;  // 设置批处理的数量
+const batchSize = 100;  // 设置批处理的数量
 // 计算总共需要进行的请求次数
 const totalRequests = Math.ceil((parseInt(stopBlockNumber)-parseInt(startBlockNumber)+1) / batchSize);
 const csvWriter = createCsvWriter({
