@@ -557,18 +557,268 @@ const userList = [
     },
     {
         "user_address": "0x0b2ab1c727094a2b196014b9b0b0392478b06cf8"
+    },
+    {
+        "user_address": "0xc2f04a24865153f51d87e338c6cdc30bfd402ad9"
+    },
+    {
+        "user_address": "0x32b14f04f471e319a3c04014256f1a0f49cc6ba6"
+    },
+    {
+        "user_address": "0xec2ec8d5785ee9eef2f4d3127197fa858fb86c12"
+    },
+    {
+        "user_address": "0xae6fe81ba5b5eaeaa3b7ed702ab805f02b70590c"
+    },
+    {
+        "user_address": "0xd969213538370b3520f93aa2412e51b6d69f8590"
+    },
+    {
+        "user_address": "0x3e054d75ae350554ef8c0736d8619a68c318f138"
+    },
+    {
+        "user_address": "0x0774bfbc7da590bc05fa026f0fb2bb8138e7d551"
+    },
+    {
+        "user_address": "0x4f0410a30600aab6d7d2aedeadaae0f7205fe100"
+    },
+    {
+        "user_address": "0xf3b7517db4c9fd34ffb88eb167c160ff366c5888"
+    },
+    {
+        "user_address": "0xb8c6141c865fe44c9ba58ee98007105efd614199"
+    },
+    {
+        "user_address": "0xa3767fe168f6684cd03d86b4000b340a011f6142"
+    },
+    {
+        "user_address": "0x372b4d1fb75f654b40b8ba2370b68b2378985a77"
+    },
+    {
+        "user_address": "0x1d4dd055825f9ea65ee22703d89703c9e6f8d46c"
+    },
+    {
+        "user_address": "0xa2aa0f0283fda519f27ebfd16abf39bf7ce87f37"
+    },
+    {
+        "user_address": "0xd681f692f5b139313e4ff7b82638e045862eaffd"
+    },
+    {
+        "user_address": "0x8139c4201e3000902a032cbd8ef7eed3f85e4bd8"
+    },
+    {
+        "user_address": "0xbb0932d5dc13972deff9d32868593e29f2de391c"
+    },
+    {
+        "user_address": "0x3e394788f9a3e54173ce2c8515952d8b1347c6d6"
+    },
+    {
+        "user_address": "0xd05e0c467ff26b78c40aecb6bbb31dca006c1c98"
+    },
+    {
+        "user_address": "0x6dade7f64ea59dda347f23de710e95d9d17a8793"
+    },
+    {
+        "user_address": "0xe047ffccdcfce2635a16ceb933a536dbedc82128"
+    },
+    {
+        "user_address": "0xfaf64671ae1facbd3a622cc8b6a0b8c634014f89"
+    },
+    {
+        "user_address": "0x5177a1fb4e7f27359484f9d471edad693470e4ac"
+    },
+    {
+        "user_address": "0xbc9f94379550226984d27f2d50d0cc7efcd7bcd6"
+    },
+    {
+        "user_address": "0x547e6fbd153e722393d3bbda979edd424c6e8b70"
+    },
+    {
+        "user_address": "0x28269ac8c484aa5936fe1dea3fad259d2750546a"
+    },
+    {
+        "user_address": "0x8c52e7adbc8576ece4142445c1671d885ade7d17"
+    },
+    {
+        "user_address": "0xf34a975c5fded0dc114ef4dda441e0fd36527d34"
+    },
+    {
+        "user_address": "0x52c441a76415aa1dd0255c36c83f7668c9430a7a"
+    },
+    {
+        "user_address": "0x352ef2b9f6ebf35e11a91876afcaae3eea7d07df"
+    },
+    {
+        "user_address": "0xc9a931f458a5fc345ec7607197b19acc599ba0ae"
+    },
+    {
+        "user_address": "0xbc1fd56fca3f31b8bd8f6e025e3ac5f6283fafc3"
+    },
+    {
+        "user_address": "0x69f173f414e88a49b0e5ae19a1907e1091a4f802"
+    },
+    {
+        "user_address": "0x75fbbfa8a94373227e25793073bfe970e0c9dce7"
+    },
+    {
+        "user_address": "0x8327a5e643fba207c1b222ab8a1a2ee79c038651"
+    },
+    {
+        "user_address": "0xe2789ec138bb358cc593162c73ffa71a34f035d6"
+    },
+    {
+        "user_address": "0x77efaf43567ca9fecd5059a79c2ffc29ec9342e3"
+    },
+    {
+        "user_address": "0xcea869e20d1fe13650c70e632d087f89682b73de"
+    },
+    {
+        "user_address": "0x2166850904d2f76670df579e595ef6d41f1071df"
+    },
+    {
+        "user_address": "0xb0fe0cfde89770ba8030ccc09e07b8ea3097a812"
+    },
+    {
+        "user_address": "0x6481b39be67a189c25ab957ecf6602252b624253"
+    },
+    {
+        "user_address": "0x43773a5d4c4b3e2e89e040c4bf8d90e8568515c0"
+    },
+    {
+        "user_address": "0x35892212810408303380a0b3bcbcf5d429c75493"
+    },
+    {
+        "user_address": "0x90a36962898ff11b8fbbdcbe7aa242e7c2d3e802"
+    },
+    {
+        "user_address": "0x7e75491955864c1296b4c5853cdcd423dc8c3d63"
+    },
+    {
+        "user_address": "0xbbb4b0dc3333fe6921c56da631dca25052523c72"
+    },
+    {
+        "user_address": "0x95d6fb5958af7781dc7c4e8288f21c77709fd540"
+    },
+    {
+        "user_address": "0x65a05e8161ae1b01e7780a0379f0559ff6c07060"
+    },
+    {
+        "user_address": "0x55f5c06c8cb0a02d35229edf6c00a7a6ec54d973"
+    },
+    {
+        "user_address": "0xa76953f013e5aae9725d14f4ab3e7def15bfa367"
+    },
+    {
+        "user_address": "0x9e78c999f215cc1bcb3ee4660faae5c2277d255e"
+    },
+    {
+        "user_address": "0xe7f2cbb4ad9666435aa24988542509b53a51ddb0"
+    },
+    {
+        "user_address": "0x8e3e72bc962b72b64d17cc5b60ee38ef5ab0a2cc"
+    },
+    {
+        "user_address": "0x0d8915fa7b130cd330505e96d1697492b8db75e8"
+    },
+    {
+        "user_address": "0xc73c663f45bde0e1016bff26356b231f243cc78b"
+    },
+    {
+        "user_address": "0x2de228dc1cf19c0a981117717738dccb77daac41"
+    },
+    {
+        "user_address": "0x310c3a45796284be0d6b9af80cf33dfec901b076"
+    },
+    {
+        "user_address": "0x9fd5afe6e1d88e71739b3085e87ee39b3b06ef14"
+    },
+    {
+        "user_address": "0x6f9a78ec12f269418a85bf5d8254062119ed928a"
+    },
+    {
+        "user_address": "0x13065d9359677b5c05ba7162a01a3bcb6890643c"
+    },
+    {
+        "user_address": "0x2603629ffa327c8b71144b6d19036f77180861f6"
+    },
+    {
+        "user_address": "0xccce2f40a55e84a35acd2495989a1f6110be0055"
+    },
+    {
+        "user_address": "0xe13d961f7609a9f30fee8a6ae0183d9893c3e7bd"
+    },
+    {
+        "user_address": "0x33d0c18800cbf2daec7a1b543d2e685f1e8abee0"
+    },
+    {
+        "user_address": "0x6f3a89658e25e68a0a1a13445f7b90c13b3b5f24"
+    },
+    {
+        "user_address": "0xcfec0d6142e983b96a03055284cbe4296330be1d"
+    },
+    {
+        "user_address": "0x656db657e8aa6b21912bda745a09c88311a72ff4"
+    },
+    {
+        "user_address": "0xe51126529ea400585400033fa32d9c43ac5f03da"
+    },
+    {
+        "user_address": "0xa131177cbec70ef4e643c46b6eaa847598f29e26"
+    },
+    {
+        "user_address": "0x1eff6a7a72616e9b7c02c7869bef1af9e38acd9f"
+    },
+    {
+        "user_address": "0xadcde8218942a374152001e6b52a15e61e73be27"
+    },
+    {
+        "user_address": "0x4abe3dbe0ace5573d45912a5d5b78938a39a8ea6"
+    },
+    {
+        "user_address": "0x387ff96f2af7d5c0ac676c7f0102d414cf217fbd"
+    },
+    {
+        "user_address": "0xf199c404ba89ee0b0bf98e4e14a77da3878198ee"
+    },
+    {
+        "user_address": "0xe6574cf252d384a9bb232c0514a63b46c6bf6114"
+    },
+    {
+        "user_address": "0xedd9a40baefe670362f4bc9d72a48449352ce381"
+    },
+    {
+        "user_address": "0xc7be27e719c01826773ec41b6c73c987046db042"
+    },
+    {
+        "user_address": "0x248d334905da8911aaebcf68f716c4188b70aef0"
+    },
+    {
+        "user_address": "0x1d4ea7c5f223d78f06c53caaf16685c30893131a"
+    },
+    {
+        "user_address": "0xd52db5e5e07a1ce698e82e03646e0dab79ecccc2"
+    },
+    {
+        "user_address": "0xb2fc548bdb58b6fac82151c6296e6d2d517331e9"
+    },
+    {
+        "user_address": "0x1427704e2d8bc59ae043c2544725121bc72f2a82"
+    },
+    {
+        "user_address": "0x6127541f24d0da9c944226fece64e3a767e61b3a"
     }
 ]
 console.log(userList.length)
 const Web3 = require('web3').Web3;
 const fs = require('fs');
-const rpcUrl = require('../config.json').RPC_URL;
+const rpcUrl = require('../config.json').FULL_RPC_URL;
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
+const block = 687667; // July-01-2023 00:00:18 UTC
 
 const httpProvider = new Web3.providers.HttpProvider(rpcUrl);
 const web3 = new Web3(httpProvider);
 
-const outputFile = 'user_balances.csv';
+const outputFile = 'user_balances_at_block_' + block + '.csv';
 const totalAddresses = userList.length;
 const concurrency = 5;
 
@@ -585,7 +835,7 @@ const csvWriter = createCsvWriter({
 async function fetchBalances(index) {
     const user = userList[index]
     const balances = [];
-    const balance = await web3.eth.getBalance(user.user_address);
+    const balance = await web3.eth.getBalance(user.user_address, block);
     balances.push({ user_address: user.user_address, balance: balance });
     // 将余额数据写入CSV文件
     csvWriter.writeRecords(balances)

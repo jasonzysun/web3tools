@@ -1,3 +1,4 @@
 {
-  "RPC_URL" : "https://qng.rpc.qitmeer.io"
+  "RPC_URL" : "https://qng.rpc.qitmeer.io",
+  "FULL_RPC_URL" : "http://120.79.90.24:18545"
 }

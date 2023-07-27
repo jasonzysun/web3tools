@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const apiUrl = 'https://qng.meerscan.io/api';
 const batchSize = 1000;
-const totalAddresses = 143079;
+const totalAddresses = 149140;
 const outputFile = 'output.csv';
 const concurrency = 20;
 // 计算总共需要进行的请求次数
