@@ -23,7 +23,7 @@ const userList = readCSV('./addresses.csv');
 console.log(userList.length)
 
 // 区块高度列表
-const blocks = [774358, 1049066];
+const blocks = [938591, 1049066];
 
 
 const outputFile = 'user_balances.csv';
@@ -46,7 +46,7 @@ const csvWriter = createCsvWriter({
 
 // 异步函数用于查询每个地址在不同区块的余额
 async function fetchBalance(userAddress, block) {
-    return await web3.eth.getBalance(userAddress, block);
+    return Web3.utils.fromWei(await web3.eth.getBalance(userAddress, block),'ether');
 }
 
 // 处理每个地址的所有区块
