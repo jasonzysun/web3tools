@@ -52,17 +52,18 @@ async function fetchBalance(userAddress, block) {
 // 处理每个地址的所有区块
 async function processAddress(index) {
     const user = userList[index];
-    console.log(user.address)
-    const userBalanceData = { user_address: user.address };
+    console.log('address: ',user.address)
+    if(Web3.utils.isAddress(user.address)){
+        const userBalanceData = { user_address: user.address };
 
-    for (const block of blocks) {
-        userBalanceData[`block_${block}`] = await fetchBalance(user.address, block);
+        for (const block of blocks) {
+            userBalanceData[`block_${block}`] = await fetchBalance(user.address, block);
+        }
+
+        // 将余额数据写入CSV文件
+        await csvWriter.writeRecords([userBalanceData]);
+        console.log('CSV file updated for address index', index);
     }
-
-    // 将余额数据写入CSV文件
-    await csvWriter.writeRecords([userBalanceData]);
-    console.log('CSV file updated for address index', index);
-
     // 继续请求下一个地址
     if (index + concurrency < totalAddresses) {
         processAddress(index + concurrency);
