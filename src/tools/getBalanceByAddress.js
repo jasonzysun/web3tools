@@ -73,5 +73,5 @@ fs.writeFileSync(outputFile, '');
 console.log('任务开始，时间：',new Date())
 // 开始发起第一页的请求（创建五个并发）
 for (let i=0; i< concurrency; i++){
-    fetchBalances(i);
+    processAddress(i);
 }
