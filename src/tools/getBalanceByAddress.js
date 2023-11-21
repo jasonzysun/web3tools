@@ -26,7 +26,7 @@ console.log(userList.length)
 const blocks = [774358, 1049066];
 
 
-const outputFile = 'user_balances_at_block_' + block + '.csv';
+const outputFile = 'user_balances_.csv';
 const totalAddresses = userList.length;
 const concurrency = 5;
 
