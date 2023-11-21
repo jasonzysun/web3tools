@@ -22,7 +22,7 @@ function readCSV(filePath) {
 const userList = readCSV('./addresses.csv');
 console.log(userList.length)
 
-区块高度列表
+// 区块高度列表
 const blocks = [774358, 1049066];
 
 
