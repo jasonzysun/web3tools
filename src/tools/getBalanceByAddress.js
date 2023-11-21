@@ -26,7 +26,7 @@ console.log(userList.length)
 const blocks = [774358, 1049066];
 
 
-const outputFile = 'user_balances_.csv';
+const outputFile = 'user_balances.csv';
 const totalAddresses = userList.length;
 const concurrency = 5;
 
@@ -52,10 +52,11 @@ async function fetchBalance(userAddress, block) {
 // 处理每个地址的所有区块
 async function processAddress(index) {
     const user = userList[index];
-    const userBalanceData = { user_address: user.user_address };
+    console.log(user.address)
+    const userBalanceData = { user_address: user.address };
 
     for (const block of blocks) {
-        userBalanceData[`block_${block}`] = await fetchBalance(user.user_address, block);
+        userBalanceData[`block_${block}`] = await fetchBalance(user.address, block);
     }
 
     // 将余额数据写入CSV文件
