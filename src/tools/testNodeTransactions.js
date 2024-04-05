@@ -66,7 +66,7 @@ async function startSendingTransactions(interval, duration) {
     });
 }
 
-// 调用函数，每10秒发送一次交易，持续10分钟
-const interval = 10000; // 10秒
-const duration = 5 * 60 * 1000; // 10分钟
+// 调用函数，每20秒发送一次交易，持续5分钟
+const interval = 20000;
+const duration = 5 * 60 * 1000;
 startSendingTransactions(interval, duration);
