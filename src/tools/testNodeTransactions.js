@@ -23,8 +23,13 @@ async function sleep(ms) {
         setTimeout(resolve, ms);
     });
 }
+// 调用函数，每20秒发送一次交易，持续5分钟
+const interval = 100;
+const duration = 5 * 60 * 1000;
+const endTime = Date.now() + duration;
+
 async function waitForHash(txhash) {
-    while (true){
+    while (true) {
         try {
             let res = await web3.eth.getTransactionReceipt(txhash)
             if (res.status !== undefined) {
@@ -34,12 +39,10 @@ async function waitForHash(txhash) {
 
         } catch (e) {
         }
-        await sleep(100);
+        await sleep(interval);
     }
 }
 
-const duration = 5 * 60 * 1000;
-const endTime = Date.now() + duration;
 async function sendTransaction(nonce, gasPrice) {
     const tx = {
         from: account,
@@ -87,7 +90,7 @@ async function sendTransaction(nonce, gasPrice) {
     if (Date.now() >= endTime) {
         return
     }
-    setTimeout(run, 100)
+    setTimeout(run, interval)
 }
 
 
@@ -120,8 +123,4 @@ async function startSendingTransactions(interval, duration) {
     });
 }
 
-// 调用函数，每20秒发送一次交易，持续5分钟
-// const interval = 20000;
-// startSendingTransactions(interval, duration);
-
-setTimeout(run, 100)
+setTimeout(run, interval)
